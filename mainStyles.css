@@ -1,0 +1,108 @@
+
+
+/* Cool text */
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+    svg {
+        font-family: "Russo One", sans-serif;
+        width: 100%; height: 100%;
+    }
+    svg text {
+        animation: stroke 5s infinite alternate;
+        stroke-width: 2;
+        stroke: #365FA0;
+        font-size: 100px;
+    }
+    @keyframes stroke {
+        0%   {
+            fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+            stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+        }
+        70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+        80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+        100% {
+            fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+            stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+        }
+    }
+    
+    .wrapper {background-color: #FFFFFF};
+
+
+
+/* Main content */
+
+
+
+html {
+    background-image:url('../img/лист\ клетка.png');
+	height:120vh;
+}
+
+h1{
+	color:rgb(10, 0, 0)
+}
+
+.mainBlockText {
+	border:1px solid rgb(0, 0, 0);
+	width:86vw;
+	margin:3vh 6vw;
+	text-align: center;
+	padding:30px 0 0;
+	border-radius:27px;
+	height:60vh;
+	background-color:rgba(99, 99, 99, 0.7)
+}
+
+.mainBlockText > div {
+	font-size:27px;
+	margin:9vh auto ;
+	width:75vw;
+	color:#000000
+}
+
+
+
+.mainBlockText > img {
+	width:100px;
+	height:100px;
+}
+
+footer {
+	margin:30vh 0 0;
+	width:calc(100vw - 19px);
+	height:30vh;
+	border:1px solid red;
+	background: #0099CC
+}
+
+
+footer > div {	
+	width:70vw;
+	height:20vh;
+	margin:7vh auto;
+	font-size:20px;
+}
+
+footer > div > p {
+	margin:0 0 10px; 
+}
+
+
+
+
+/* dls */
+
+form {
+	border:1px solid red;
+	padding:5vh 5vw;
+}
+
+table {
+	padding:2vh 5vw 5vh;
+}
+
+ol {
+	padding:2vh 5vw 5vh;
+}
